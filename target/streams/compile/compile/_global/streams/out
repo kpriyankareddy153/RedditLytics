@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/app/controllers/SubRedditController.java:15:1: package org.json does not exist[0m
+[0m[[0m[31merror[0m] [0m[0morg.json.JSONArray[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/app/controllers/SubRedditController.java:14:1: package org.json does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/app/controllers/SubRedditController.java:59:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable query[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.SubRedditController[0m
+[0m[[0m[31merror[0m] [0m[0mquery[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/app/controllers/SubRedditController.java:59:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable StandardCharsets[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.SubRedditController[0m
+[0m[[0m[31merror[0m] [0m[0mStandardCharsets[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/app/controllers/SubRedditController.java:69:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.SubRedditController[0m
+[0m[[0m[31merror[0m] [0m[0mJSONObject[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/priyankareddykudumula/Desktop/app-project/goal-diggers-soen6441/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m

@@ -1,0 +1,23 @@
+@(subreddits: Set[SubReddit])
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <center><h1>Subreddits Data</h1></center>
+
+    <center>
+    @for(subreddit <- subreddits){
+        <a href="routes.SubredditController.redirect_to_subreddit(subreddit.reddit_id)">@subreddit.permalink</a>
+        <p> Reddit id: @subreddit.reddit_id</p>
+        <p> SubReddit id: @subreddit.subreddit_id</p>
+        <p> SubReddit name: @subreddit.subreddit_name</p>
+        <p> Link id: @subreddit.link_id</p>
+        <p> Reddit Body: @subreddit.reddit_body</p>
+    }
+    </center>
+
+</body>
+</html>

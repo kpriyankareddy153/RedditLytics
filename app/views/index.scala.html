@@ -1,0 +1,31 @@
+@()
+@main("Homepage"){
+@defining(play.core.PlayVersion.current) { version =>
+
+<header>
+<section id="content">
+  <div class="intro">
+    <h1 class="intro_heading">
+      Welcome to RedditLytics
+    </h1>
+
+    <div class="intro_search">
+      <form method="post">
+        <label for="keyword">
+        </label>
+        <input
+          class="intro_search--input"
+        type="text"
+        id="keyword"
+        placeholder="Enter search keyword: " />
+
+        <input
+        class="intro_search--submit"
+        type="submit" value="Go"/>
+      </form>
+    </div>
+  </div>
+</section>
+</header>
+}
+}
